@@ -20,7 +20,10 @@ Tip is powered by a series of self-developed lightweight models:
 
 You are also free to swap out the model for any alternative you prefer.
 
-(Demo video link coming soon)
+<video src="https://tristanli-1252178374.cos.ap-shanghai.myqcloud.com/tip-final.mp4?q-sign-algorithm=sha1&q-ak=AKIDyaSzUjDdvcJrWbarbrxd29viVh_rKVa0-dekHoAMPrm9MknVu6pRSJ71RAXDLTCh&q-sign-time=1767364915;1767368515&q-key-time=1767364915;1767368515&q-header-list=host&q-url-param-list=&q-signature=d6a8e20395fe2d588b2ca32f72e27e2d69b30ee7&x-cos-security-token=UQGzw0kKdbVEKWyDdqHnQox4tPpfpUPa053d0cc2759a2df943f2176168759b40N2fgkR-epkqgFWDejf1QrRZr1nIqkK0CcCHwU6LDf0a8DZS5NKtFvU57E8Mx-KKPKuWU6bmBM7NSwmgA--T_5E-OVgxCoRzGoS0iL5Sw20CZN2Ag4yzSUJgCoHA4BsSkbfEIerOW8fqO61LeteTu1TB11onLZsx4edkjCNC-06AnsjoWHSldV8aWpZnn-bwazNoN1CzH8Wp2PP2lDCBcCzF7-zD2ePjxDH3a66FMKxVx-5c1tR9wYTZQSuyFdFxoH0ii-a2Wwwx5o8JINIeMHg" 
+poster="https://tristanli-1252178374.cos.ap-shanghai.myqcloud.com/tip_video_cover.jpg?q-sign-algorithm=sha1&q-ak=AKIDBSYucT1YSri_avLuGhkouZmjNIkx82ZmwivvlWRKRbtyRiQJnWbZgEdmyAnLL_cP&q-sign-time=1767365171;1767368771&q-key-time=1767365171;1767368771&q-header-list=host&q-url-param-list=ci-process&q-signature=d6338d6ed71ea0bc34c1aec7919ab4f8accc22d5&x-cos-security-token=UQGzw0kKdbVEKWyDdqHnQox4tPpfpUPa01f73b6040939a36a4276042208ebbf3N2fgkR-epkqgFWDejf1QrUqMVR1CWXeg4ZnpHOXNiSU-rUzikyGtgelY6gbqPdtEd7C9QiWNzW47gzLv3I1bjIK7qa42yKg8NMP_NHblf3MrcKv3TQzUXhwePE7IxCYQW-uF6zt-7myE-TyZot85e5z2_adFXuOcg60_cKYZiUM_MbthIHSsGALb--iahyyfaPNptVM372v-L32ngyo5QMFerrT23gxSkokUV45cciaSJkE98IV_sqgYBN3bTYEw60DbG2pZhZKDeMPLVwpntA&ci-process=originImage" 
+controls muted preload="metadata" 
+width="100%"></video>
 
 ---
 
@@ -53,7 +56,7 @@ After downloading, grant the required permissions:
   > If Tip is not listed, click the + button, locate Tip, and add it. Permission scope: accessibility is used only to read current selection and simulate keyboard/mouse; screen and audio capture are used only for region screenshots.
 - Press `ctrl + shift` to activate Tip and start using it.
 
-<p align="center"><img src="youtu-tip/docs/assets/doc_privacy.png" alt="Permissions screenshot" width="720"></p>
+<p align="center"><img src="youtu-tip/docs/assets/doc_privacy_en.png" alt="Permissions screenshot" width="720"></p>
 
 
 ### Quick start
