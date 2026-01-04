@@ -20,10 +20,9 @@ Tip is powered by a series of self-developed lightweight models:
 
 You are also free to swap out the model for any alternative you prefer.
 
-<video src="https://tristanli-1252178374.cos.ap-shanghai.myqcloud.com/tip-final.mp4?q-sign-algorithm=sha1&q-ak=AKIDyaSzUjDdvcJrWbarbrxd29viVh_rKVa0-dekHoAMPrm9MknVu6pRSJ71RAXDLTCh&q-sign-time=1767364915;1767368515&q-key-time=1767364915;1767368515&q-header-list=host&q-url-param-list=&q-signature=d6a8e20395fe2d588b2ca32f72e27e2d69b30ee7&x-cos-security-token=UQGzw0kKdbVEKWyDdqHnQox4tPpfpUPa053d0cc2759a2df943f2176168759b40N2fgkR-epkqgFWDejf1QrRZr1nIqkK0CcCHwU6LDf0a8DZS5NKtFvU57E8Mx-KKPKuWU6bmBM7NSwmgA--T_5E-OVgxCoRzGoS0iL5Sw20CZN2Ag4yzSUJgCoHA4BsSkbfEIerOW8fqO61LeteTu1TB11onLZsx4edkjCNC-06AnsjoWHSldV8aWpZnn-bwazNoN1CzH8Wp2PP2lDCBcCzF7-zD2ePjxDH3a66FMKxVx-5c1tR9wYTZQSuyFdFxoH0ii-a2Wwwx5o8JINIeMHg" 
-poster="https://tristanli-1252178374.cos.ap-shanghai.myqcloud.com/tip_video_cover.jpg?q-sign-algorithm=sha1&q-ak=AKIDBSYucT1YSri_avLuGhkouZmjNIkx82ZmwivvlWRKRbtyRiQJnWbZgEdmyAnLL_cP&q-sign-time=1767365171;1767368771&q-key-time=1767365171;1767368771&q-header-list=host&q-url-param-list=ci-process&q-signature=d6338d6ed71ea0bc34c1aec7919ab4f8accc22d5&x-cos-security-token=UQGzw0kKdbVEKWyDdqHnQox4tPpfpUPa01f73b6040939a36a4276042208ebbf3N2fgkR-epkqgFWDejf1QrUqMVR1CWXeg4ZnpHOXNiSU-rUzikyGtgelY6gbqPdtEd7C9QiWNzW47gzLv3I1bjIK7qa42yKg8NMP_NHblf3MrcKv3TQzUXhwePE7IxCYQW-uF6zt-7myE-TyZot85e5z2_adFXuOcg60_cKYZiUM_MbthIHSsGALb--iahyyfaPNptVM372v-L32ngyo5QMFerrT23gxSkokUV45cciaSJkE98IV_sqgYBN3bTYEw60DbG2pZhZKDeMPLVwpntA&ci-process=originImage" 
-controls muted preload="metadata" 
-width="100%"></video>
+Click the image below to view the demo:
+[![Tip Demo](https://tristanli-1252178374.cos.ap-shanghai.myqcloud.com/tip_github.jpg)](https://tristanli-1252178374.cos.ap-shanghai.myqcloud.com/tip-demo_v2.mp4)
+
 
 ---
 
@@ -42,7 +41,7 @@ Tip focuses on “better interaction, safer privacy, broader capability”:
 - **Data and privacy safety**: Many LLM agent apps default to processing data in the cloud. For privacy-sensitive scenarios like social platforms, users may not want screen content sent to cloud models and instead prefer private on-device solutions.
 - **The last mile of interaction**: LLM apps usually start with a chat box and require typing. We want a smarter way to complete context: no manual typing, copy/paste, or image uploads—Tip understands what is on screen, completes context, infers intent, and suggests actions to reduce typing and close the interaction gap.
 - **On-device agent environment**: Most agents live in the cloud, making it hard to run local tasks like “understand and organize local files” or “check chats on a social platform.” We aim to provide a mature framework and environment so users can run a more capable agent locally.
-
+- **New Desktop Skills, Learn and Master:** We've designed a "GUI skill" mechanism for the GUI Agent, allowing Tip to learn new skills from methods taught to it by users. For example, teaching a large model how to "perform specific data cleanup" or "use user-specific tools to perform tasks," customizing your desktop automation skills.
 
 ## How to use Tip
 
@@ -121,7 +120,7 @@ We also support the standard OpenAI SDK entry. You can use any online provider o
 Due to the limited number of parameters, edge models have relatively limited performance. They may not be able to complete some tasks, and the accuracy of their output text may be lower compared to larger models. We provide a simple introductory table to easily distinguish the current capabilities of the edge model:
 
 | Task Name | Specific Example | Edge Model | Large Model |
-| --- | --- | --- | --- |
+| --- | --- | :---: | :---: |
 | Search Content | “Search xxx on this page” | ✅ | ✅ |
 | Simple Visual Location | “Click the xxx button and enter xxx” | ✅ | ✅ |
 | Single-Step Logic Task | “Fill out a form” | ❌ | ✅ |
