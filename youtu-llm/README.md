@@ -249,3 +249,20 @@ To enable tool calling capabilities, please append the following arguments to th
 ```bash
 --enable-auto-tool-choice --tool-call-parser hermes
 ```
+
+
+## 📚 Citation
+
+If you find this work useful, please consider citing:
+
+```bibtex
+@article{youtu-llm,
+  title={Youtu-LLM: Unlocking the Native Agentic Potential for Lightweight Large Language Models},
+  author={Tencent Youtu Lab},
+  year={2025},
+  eprint={2512.24618},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2512.24618}, 
+}
+```
