@@ -1,6 +1,6 @@
 # Youtu-Tip On-Device AI Assistant
 
-Tip is a proactive on-device AI assistant that treats your mouse as a super entry point and intelligently understands your current work. Tip bundles desktop automation, agent calls, and more. It is fully open source, can run offline on-device, and keeps privacy and security in your control.
+Tip is a proactive on-device AI assistant that treats your mouse as a super entry point and intelligently understands your current work. Tip bundles automatic context completion, intent detection, agent calls, and more. It is fully open source, can run offline on-device, and keeps privacy and security in your control.
 
 ## Install and Use
 1. Download the dmg installer from Releases and complete the installation.
@@ -42,9 +42,12 @@ Tip is a proactive on-device AI assistant that treats your mouse as a super entr
 ## Citation
 ```bibtex
 @article{youtu-agent,
-    title={Youtu-Agent paper},
-    author={Youtu-Agent Team},
-    journal = {arXiv preprint arXiv:TBD},
-    year={2025}
+  title={Youtu-Agent: Scaling Agent Productivity with Automated Generation and Hybrid Policy Optimization}, 
+  author={Tencent Youtu Lab},
+  year={2025},
+  eprint={2512.24615},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2512.24615}, 
 }
 ```
