@@ -30,6 +30,17 @@ The key contributions of Youtu-LLM are as follows:
 - 💡 **Native Agentic Talents**: Youtu-LLM was natively trained with 128K long contexts + agentic mid-training, enabling more turns of interaction in on-device scenarios.
 - ⚡ **SOTA Performance**: Youtu-LLM achieves SOTA performance on a small LLM based on the dense MLA architecture, surpassing conventional dense GQA/MHA paradigms. The MLA architecture also means that Youtu-LLM can be easily integrated into existing DSV3-oriented ecosystems.
 
+## 🤗 Model Download
+| Model Name  | Description | Download |
+| ----------- | ----------- |-----------
+| Youtu-LLM-2B-Base  | Base model of Youtu-LLM-2B |🤗 [Model](https://huggingface.co/tencent/Youtu-LLM-2B-Base)|
+| Youtu-LLM-2B | Instruct model of Youtu-LLM-2B | 🤗 [Model](https://huggingface.co/tencent/Youtu-LLM-2B)|
+| Youtu-LLM-2B-GGUF | Instruct model of Youtu-LLM-2B, in GGUF format | 🤗 [Model](https://huggingface.co/tencent/Youtu-LLM-2B-GGUF)|
+
+## 📰 News
+- [2026.01.07] You can now fine-tuning Youtu-LLM with [ModelScope](https://mp.weixin.qq.com/s/JJtQWSYEjnE7GnPkaJ7UNA).
+- [2026.01.04] You can now fine-tuning Youtu-LLM with [LlamaFactory](https://github.com/hiyouga/LlamaFactory/pull/9707).
+
 <a id="benchmarks"></a>
 
 ## 📊 Performance Comparisons
@@ -246,6 +257,14 @@ To enable tool calling capabilities, please append the following arguments to th
 
 ```bash
 --enable-auto-tool-choice --tool-call-parser hermes
+```
+
+### 5. llama.cpp Deployment
+
+For macOS, you can install and use Youtu-LLM as follows:
+```bash
+brew install llama.cpp
+llama-server -hf tencent/Youtu-LLM-2B-GGUF:Q8_0 --host 0.0.0.0 --port 8081  --log-disable
 ```
 
 ## 📚 Citation
