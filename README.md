@@ -93,7 +93,7 @@ Once running, connect Tip:
 2. In “Channel,” choose “ollama” and enter the model name.
 3. Save, then connect it in “Settings - General.”
 
-Our Youtu-LLM on-device models are applying for official Ollama endpoints and will be downloadable soon.
+Youtu-LLM has been adapted to `llama.cpp` and we have submitted a pull request to the `Ollama` project. Support for `ollama` will be available soon. Please stay tuned.
 
 
 #### Use the OpenAI endpoint
